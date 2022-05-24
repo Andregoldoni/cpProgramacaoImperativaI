@@ -10,7 +10,7 @@ console.log ("5 - Brigadeiro – 8 segundos (padrão)")
 function microondas(opcao,tempo){
 
 
-    if (opcao == 1 && tempo >= 10 ) {
+    if (opcao == 1 && tempo >= 10 & tempo < 20 ) {
         console.log ('Padrão')
     } else if (opcao == 1 && tempo >= 20 & tempo < 30 ){
         console.log ('Prato queimou')
@@ -18,7 +18,7 @@ function microondas(opcao,tempo){
         console.log ('Kabum')
     } else if (opcao == 1 && tempo <= 10 ){
         console.log ('tempo insuficiente')
-    } else if (opcao == 2 && tempo > 8 ){
+    } else if (opcao == 2 && tempo > 8 & tempo < 16 ){
          console.log ('Padrão')
     } else if (opcao == 2 && tempo >= 16 & tempo < 24 ){
         console.log ('Prato queimou')
@@ -26,7 +26,7 @@ function microondas(opcao,tempo){
         console.log ('Kabum')
     } else if (opcao == 2 && tempo < 8 ){
         console.log ('tempo insuficiente')
-    } else if (opcao == 3 && tempo >= 15 ){
+    } else if (opcao == 3 && tempo >= 15 & tempo < 30){
         console.log ('Padrão')
     } else if (opcao == 3 && tempo >= 30 & tempo < 45 ){
        console.log ('Prato queimou')
@@ -34,7 +34,7 @@ function microondas(opcao,tempo){
        console.log ('Kabum')
     } else if (opcao == 3 && tempo < 15 ){
        console.log ('tempo insuficiente') 
-    } else if (opcao == 4 && tempo >= 12 ){
+    } else if (opcao == 4 && tempo >= 12 & tempo < 24){
         console.log ('Padrão')
     } else if (opcao == 4 && tempo >= 24 & tempo < 36 ){
        console.log ('Prato queimou')
@@ -42,7 +42,7 @@ function microondas(opcao,tempo){
        console.log ('Kabum')
     } else if (opcao == 4 && tempo < 12 ){
        console.log ('tempo insuficiente') 
-    } else if (opcao == 5 && tempo > 8 ){
+    } else if (opcao == 5 && tempo > 8 & tempo < 16){
         console.log ('Padrão')
     } else if (opcao == 5 && tempo >= 16 & tempo < 24 ){
        console.log ('Prato queimou')
@@ -59,4 +59,4 @@ function microondas(opcao,tempo){
 
 
 
-console.log(microondas(5,11))
+console.log(microondas(5,18))
