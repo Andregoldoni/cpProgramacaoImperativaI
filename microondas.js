@@ -16,7 +16,7 @@ function microondas(opcao,tempo){
         console.log ('Prato queimou')
     } else if (opcao == 1 && tempo >= 30 ){
         console.log ('Kabum')
-    } else if (opcao == 1 && tempo <= 10 ){
+    } else if (opcao == 1 && tempo < 10 ){
         console.log ('tempo insuficiente')
     } else if (opcao == 2 && tempo > 8 & tempo < 16 ){
          console.log ('Padrão')
