@@ -18,7 +18,7 @@ function microondas(opcao,tempo){
         console.log ('Kabum')
     } else if (opcao == 1 && tempo < 10 ){
         console.log ('tempo insuficiente')
-    } else if (opcao == 2 && tempo > 8 & tempo < 16 ){
+    } else if (opcao == 2 && tempo >= 8 & tempo < 16 ){
          console.log ('Padrão')
     } else if (opcao == 2 && tempo >= 16 & tempo < 24 ){
         console.log ('Prato queimou')
@@ -42,7 +42,7 @@ function microondas(opcao,tempo){
        console.log ('Kabum')
     } else if (opcao == 4 && tempo < 12 ){
        console.log ('tempo insuficiente') 
-    } else if (opcao == 5 && tempo > 8 & tempo < 16){
+    } else if (opcao == 5 && tempo >= 8 & tempo < 16){
         console.log ('Padrão')
     } else if (opcao == 5 && tempo >= 16 & tempo < 24 ){
        console.log ('Prato queimou')
